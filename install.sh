@@ -7,9 +7,9 @@ SSHDIR=$HOME/.ssh
 user=$(whoami)
 
 function Install_Ansible {
-
+    apt update
     apt-get install python-setuptools
-    easy_install pip
+    apt-get python-pip
     cd ..
     git clone https://github.com/ansible/ansible.git
     cd ansible
