@@ -9,7 +9,7 @@ user=$(whoami)
 function Install_Ansible {
     apt update
     apt-get install python-setuptools
-    apt-get python-pip
+    apt-get install python-pip
     cd ..
     git clone https://github.com/ansible/ansible.git
     cd ansible
