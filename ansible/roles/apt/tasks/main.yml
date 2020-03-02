@@ -50,4 +50,5 @@
     - libtool
     - texinfo
     - libreadline-dev
+    - castxml
   tags: apt
