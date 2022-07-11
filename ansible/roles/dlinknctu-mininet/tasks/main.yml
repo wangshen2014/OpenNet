@@ -1,6 +1,6 @@
 - name: Set dlinknctu-mininet
   set_fact:
-    mininet_repos: "https://github.com/bcmmbaga/mininet.git"
+    mininet_repos: "https://github.com/wangshen2014/mininet.git"
     mininet_dir_path: "{{ home_location }}/mininet"
   tags: mininet
 - name: Clone dlinknctu-mininet
